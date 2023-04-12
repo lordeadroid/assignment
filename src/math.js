@@ -21,3 +21,9 @@ const isEven = function(a) {
 const isOdd = function(a) {
 	return !isEven(a);
 }
+
+exports.add = add;
+exports.subtract = subtract;
+exports.multiply = multiply;
+exports.isEven = isEven;
+exports.isOdd = isOdd;
